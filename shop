@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOTW Shop</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+  <header class="bg-white shadow-md p-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold">LOTW Shop</h1>
+    <nav>
+      <a href="#" class="text-gray-700 hover:text-black px-2">Home</a>
+      <a href="#" class="text-gray-700 hover:text-black px-2">Shop</a>
+      <a href="#" class="text-gray-700 hover:text-black px-2">Contact</a>
+    </nav>
+  </header>
+
+  <main class="p-4">
+    <h2 class="text-2xl font-semibold mb-4">Our Products</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg">
+        <img src="https://via.placeholder.com/300" alt="Product 1" class="w-full h-48 object-cover rounded-md mb-2">
+        <h3 class="text-lg font-medium">Product 1</h3>
+        <p class="text-gray-600 mb-2">Description of product 1.</p>
+        <span class="text-green-600 font-semibold mb-2">$20</span>
+        <button class="mt-2 w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Add to Cart</button>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg">
+        <img src="https://via.placeholder.com/300" alt="Product 2" class="w-full h-48 object-cover rounded-md mb-2">
+        <h3 class="text-lg font-medium">Product 2</h3>
+        <p class="text-gray-600 mb-2">Description of product 2.</p>
+        <span class="text-green-600 font-semibold mb-2">$30</span>
+        <button class="mt-2 w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Add to Cart</button>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow hover:shadow-lg">
+        <img src="https://via.placeholder.com/300" alt="Product 3" class="w-full h-48 object-cover rounded-md mb-2">
+        <h3 class="text-lg font-medium">Product 3</h3>
+        <p class="text-gray-600 mb-2">Description of product 3.</p>
+        <span class="text-green-600 font-semibold mb-2">$25</span>
+        <button class="mt-2 w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-white text-center p-4 mt-4 text-gray-600 border-t">
+    &copy; 2025 LOTW Shop. All rights reserved.
+  </footer>
+</body>
+</html>
